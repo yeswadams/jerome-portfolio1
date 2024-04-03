@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel Jerome Portfolio Website</title>
+
+    <!--custom css-->
+    <link rel="stylesheet" href="./Assets/style.css">
+    <!--box icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+
+    <!--Header design-->
+    <header class="header">
+        <a href="#" class="logo">My Portfolio</a>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="bx bx-moon" id="darkMode-icon"></div>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <!--home section-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I am</h3>
+            <h1>Daniel Jerome</h1>
+            <p>I am a Communications and Digital Media Manager with a background in content creation, media and public
+                relations, social media management, fundraising, resource mobilization and storytelling. I am
+                successful at crafting brand identity with cohesive multimedia skills for 8 years.
+            </p>
+            
+            <div class="social-media">
+                <a href=" https://www.facebook.com/profile.php?id=100085604786958&mibextid=uzlsIk" target="_blank" rel="noopener noreferrer" title="Facebook Profile"><i class='bx bxl-facebook'></i></a>
+                <a href=" https://www.instagram.com/jeromedavey?igsh=dTd2b3F3dTlzMG85&utm_source=qr" target="_blank" rel="noopener noreferrer" title="Instagram Profile"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="https://www.linkedin.com/in/david-jerome-kiarie-1a260851?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" rel="noopener noreferrer" title="LinkedIn Profile"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://twitter.com/Kenya" target="_blank" rel="noopener noreferrer" title="Twitter"><i class='bx bxl-twitter'></i></a>
+            </div>
+
+            <a href="./Assets/Imgs/CV - David Jerome .pdf" class="btn">Download CV</a>
+        </div>
+
+        <div class="profession-container">
+            <div class="profession-box">
+                <div class="profession" style="--i:0;">
+                    <i class='bx bx-video-plus' ></i>
+                    <h3>Digital Media Manager</h3>
+                </div>
+                <div class="profession" style="--i:1;">
+                    <i class='bx bx-user-voice' ></i>
+                    <h3>Communication Associate</h3>
+                </div>
+                <div class="profession" style="--i:2;">
+                    <i class='bx bxl-meta' ></i>
+                    <h3>Social Media Strategist</h3>
+                </div>
+                <div class="profession" style="--i:3;">
+                    <i class='bx bx-book-add' ></i>
+                    <h3>Content Strategist</h3>
+                </div>
+                
+                <div class="circle"></div>
+            </div>
+
+            <div class="overlay"></div>
+        </div>
+        <div class="home-img">
+            <img src="./Assets/Imgs/headshot1-removebg-preview.png" alt="Daniel Jerome">
+        </div>
+    </section>
+
+    <!-- about secttion design -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="./Assets/Imgs/profile.1 (2).png" alt="Daniel Jerome- My Picture">
+            <div class="overlay"></div>
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Hi, I'm Here to Help You in Your Next Project</h3>
+            <p>I am a Communications and Digital Media Manager with a background in content creation, media and public
+                relations, social media management, fundraising, resource mobilization and storytelling. I am
+                successful at crafting brand identity with cohesive multimedia skills for 8 years.
+            </p>
+            <p>I have the ability to oversee and lead a team, having built a community of performers in mid-senior management
+                level for 5 years; with a creative mindset in digital and print communication, innovation and climate
+                justice, aimed at advancing an organization's mission and social impact.
+            </p>
+
+            <div class="tab-titles">
+               <p class="tab-links active-link" onclick="opentab('experience')">Experience</p>
+               <p class="tab-links" onclick="opentab('education')">Education</p>
+               <p class="tab-links" onclick="opentab('certifications')">Certifications</p>
+            </div>
+            <div class="tab-contents active-tab" id ="experience">
+                <ul>
+                    <li><span>Communications and Social Media Consultant (Contract)</span><br>Embassy of Switzerland in Nairobi (East Africa) June 2022 - December 2023</li>
+                    <li><span>Media Trainer, USAID & Global Communities</span><br>Ringier Africa, currently, Pulse Africa (October 2016 - October 2020)</li>
+                    <li><span>Community Manager & Social Media Manager</span><br>USAID & Global Communities, Kenya (November 2022 - July 2023)</li>
+                    <li><span>Director of Content, Digital Journalist and Communications</span><br>Pulse East Africa - Kenya & Uganda (November 2020 - June 2022)</li>
+                </ul>
+            </div>
+
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>United States International University</span><br>M.A Communication Studies- Expected completion</li>
+                    <li><span>Daystar University</span><br>B.A Communications, Journalism, PR and Advertising</li>
+                    <li><span>Reuters</span><br>Digital Journalism</li>
+                    <li><span>Facebook Blueprint | elearning</span><br>Facebook Terminology</li>
+                </ul>
+            </div>
+
+            <div class="tab-contents" id="certifications">
+                <ul>
+                    <li><span>IOLAR</span><br>Transform and Grow</li>
+                    <li><span>Daystar University</span><br>B.A Communications, Journalism, PR and Advertising</li>
+                    <li><span>Reuters</span><br>Digital Journalism</li>
+                    <li><span>Facebook Blueprint | elearning</span><br>Facebook Terminology</li>
+                </ul>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- services section design -->
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-group' ></i>
+                <h3>Public & Media Relations</h3>
+                <p>Drawing from my experience in Public Relations and Media Management, I offer tailored Public &amp; Media Relations 
+                    services. From maintaining active relationships with journalists to organizing interviews and serving as a media 
+                    liaison, I ensure effective communication and positive reputation management.
+                </p>    
+                <a href="#" class="btn">Contact Me</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-clipboard'></i>
+                <h3>Project Management  (Events, Campaigns, Initiatives)</h3>
+                <p>With a keen eye for detail and a strategic mindset, I offer efficient Project Management services to streamline 
+                    your initiatives from concept to completion. Leveraging industry-standard methodologies, I ensure seamless coordination,
+                    effective resource allocation, and timely delivery of high-quality results.
+                </p>    
+                <a href="#contact" class="btn">Contact Me</a>
+            </div>    
+            <div class="services-box">
+                <i class='bx bx-edit' ></i>
+                <h3>Content Creation (Writing, Editing, Multimedia)</h3>
+                <p>With a proven track record in content creation for 8 years, I provide comprehensive Content Creation services, 
+                    including writing press releases, publications, blogs, social media posts, and annual reports. My multimedia 
+                    skills encompass graphic designs, infographics, and video production.
+                </p>    
+                <a href="#contact" class="btn">Contact Me</a>
+            </div> 
+        </div>
+
+        <div class="services-container">       
+            <div class="services-box">
+                <i class='bx bxl-meta' ></i>
+                <h3>Social Media Management</h3>
+                <p>I specialize in Social Media Management, leveraging innovative strategies and platforms like Instagram and LinkedIn 
+                   to drive engagement and audience growth. With a demonstrated ability to lead social media teams, I craft and curate 
+                   compelling content aligned with organizational goals and targets.
+                </p>
+                <a href="#contact" class="btn">Contact Me</a>
+            </div>   
+            <div class="services-box">
+                <i class='bx bx-user-voice' ></i>
+                <h3>Strategic Communication</h3>
+                <p>>Leveraging my background in crafting brand identity and enhancing project awareness, I offer Strategic 
+                    Communication services to help organizations effectively convey their message and advance their mission. With 
+                    expertise in stakeholder engagement and advocacy, I ensure cohesive messaging across platforms.
+                </p>    
+                <a href="#contact" class="btn">Contact Me</a>
+            </div>    
+            <div class="services-box">
+                <i class='bx bx-signal-3' ></i>
+                <h3>Digital Marketing & Audience Engagement</h3>
+                <p>Utilizing my expertise in digital marketing and audience engagement, I provide comprehensive services to enhance 
+                    online visibility and foster meaningful connections with target audiences. This includes website management, email 
+                    marketing, virtual meetings, and tracking analytics and metrics.
+                </p>    
+                <a href="#contact" class="btn">Contact Me</a>
+            </div>    
+        </div>
+        
+        <!-- Portfolio section-->
+        <section class="portfolio" id="portfolio">
+            <h2 class="heading">My Latest <span>Projects</span></h2>
+
+            <div class="portfolio-container">
+                <div class="portfolio-box">
+                    <img src="./Assets/Imgs/portfolio of Swiz.png" alt="Portfolio 1">
+                    <div class="portfolio-layer">
+                        <h4>Video Production</h4>
+                        <p>The Embassy of Switzerland</p>
+                        <a href="https://x.com/SwissEmbassyKE/status/1717551546479604197?s=20" target="_blank" rel="noopener noreferrer"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>  
+                
+                <div class="portfolio-box">
+                    <img src="./Assets/Imgs/customers-portfolio .png" alt="Portfolio 1">
+                    <div class="portfolio-layer">
+                        <h4>Cusomer Service Plan</h4>
+                        <p>- Bush Smiles Dental Clinic</p>
+                        <a href="https://twitter.com/SwissEmbassyKE/status/1686387477396013057?s=20" target="_blank" rel="noopener noreferrer"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div> 
+
+                <div class="portfolio-box">
+                    <img src="./Assets/Imgs/portfolio Swizz 3.png" alt="Portfolio 1">
+                    <div class="portfolio-layer">
+                        <h4>Social Media Management</h4>
+                        <p>UN Habitat & Swiss Embassy in Nairobi</p>
+                        <a href="https://www.pulselive.co.ke/business/the-event-held-on-saturday-december-11-saw-house-of-secrets-one-of-usiu-africas/ye4717q" target="_blank" rel="noopener noreferrer"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div> 
+
+
+                <div class="portfolio-box">
+                    <img src="./Assets/Imgs/DSC08538[1].jpg" alt="Portfolio 1">
+                    <div class="portfolio-layer">
+                        <h4>Content Strategy</h4>
+                        <p>For Pulse africa</p>
+                        <a href="https://www.pulselive.co.ke/business/the-event-held-on-saturday-december-11-saw-house-of-secrets-one-of-usiu-africas/ye4717q" target="_blank" rel="noopener noreferrer"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div> 
+
+                <div class="portfolio-box">
+                    <img src="./Assets/Imgs/Screenshot 2024-03-29 180933.png" alt="Portfolio 1">
+                    <div class="portfolio-layer">
+                        <h4>Social Media Training</h4>
+                        <p>USAID & Global Communities</p>
+                        <a href="https://www.pulselive.co.ke/business/the-event-held-on-saturday-december-11-saw-house-of-secrets-one-of-usiu-africas/ye4717q" target="_blank" rel="noopener noreferrer"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div> 
+                <div class="portfolio-box">
+                    <img src="./Assets/Imgs/portfolio.1.avif" alt="Portfolio 1">
+                    <div class="portfolio-layer">
+                        <h4>Event Management</h4>
+                        <p>The future of content is African.</p>
+                        <a href="https://www.pulselive.co.ke/business/the-event-held-on-saturday-december-11-saw-house-of-secrets-one-of-usiu-africas/ye4717q" target="_blank" rel="noopener noreferrer"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div> 
+        </section>
+
+        <section class="contact" id="contact">
+            <h2 class="heading">Contact <span>Me!</span></h2>
+            <h3>My Phone Number:</h3>
+            <p>(+254) 711 744 508</p>
+            <h3>My Email:</h3>
+            <p>kiariewambugua@gmail.com</p>
+
+            <form name="contact" method="POST" data-netlify="true">
+                <div class="input-box">
+                    <input type="text" name="full-name" placeholder="Full Name" required>
+                    <input type="email" name="email" placeholder="Email Address" required>
+                </div>
+                <div class="input-box">
+                    <input type="tel" name="mobile-number" placeholder="Mobile Number" required>
+                    <input type="text" name="subject" placeholder="Email Subject" required>
+                </div>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+                <input type="hidden" name="form-name" value="contact" /> <!-- Required for Netlify forms -->
+                <input type="submit" value="Send Message" class="btn">
+            </form>
+            
+        </section>
+
+    <!--footer section design-->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by Yeswa. All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+        </div>
+
+    </footer>
+
+    <!--Scroll Reveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--cutom js-->
+    <script src="./Assets/script.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
